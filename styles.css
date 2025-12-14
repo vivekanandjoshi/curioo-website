@@ -908,8 +908,9 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.4s ease;
 }
 
-.collage-item:hover {
-    transform: translateY(-10px);
+.collage-item:hover { 
+    transform: translateY(-10px) scale(1.25);
+    z-index: 10;
 }
 
 .ipad-frame {
