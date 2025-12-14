@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     min-height: 100vh;
     padding: 140px 0 0;
-    background: linear-gradient(180deg, #F0FDFA 0%, #ECFEFF 50%, #F0F9FF 100%);
+    background: #FFC107;
     overflow: hidden;
 }
 
