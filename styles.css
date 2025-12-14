@@ -1564,3 +1564,51 @@ h1, h2, h3, h4, h5, h6 {
         display: none;
     }
 }
+
+/* ============================================
+   MOBILE FIXES
+   ============================================ */
+
+/* Fix white gap after footer */
+html, body {
+    min-height: 100%;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    /* Hero - solid yellow background for better readability on mobile */
+    .hero {
+        background: #FFC107 !important;
+    }
+    
+    .hero-bg {
+        display: none;
+    }
+    
+    .hero-title, .hero-subtitle, .hero-badge {
+        color: #1A202C !important;
+    }
+    
+    .hero-subtitle {
+        color: #374151 !important;
+    }
+    
+    /* Steps section - center content and reduce margins */
+    .steps-container {
+        align-items: center;
+        gap: 0;
+    }
+    
+    .step {
+        padding: 20px 16px;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .step-connector {
+        height: 24px;
+    }
+}
